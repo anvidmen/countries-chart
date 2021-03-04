@@ -6,6 +6,7 @@ import retrieveCountries from 'api/retrieve-countries'
 import retrieveUser from 'api/retrieve-user'
 
 import Countries from 'views/Countries/Countries'
+import CountriesChart from 'views/CountriesChart/CountriesChart'
 import Login from 'views/Login/Login'
 
 const App = () => {
@@ -43,7 +44,9 @@ const App = () => {
         <Route exact path='/login'>
           <Login onLogin={handleLogin} />
         </Route>
-        <Route exact path='/chart' />
+        <Route exact path='/chart'>
+          <CountriesChart countries={countries} />
+        </Route>
       </Switch>
     </BrowserRouter>
   )

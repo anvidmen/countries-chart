@@ -12,13 +12,13 @@ const Footer = () => {
           <div>
             <h2>Latin America</h2>
             <Information>
-              <p>latin</p>
+              <p>Is a 3 screen applicationIn which flags of Latin America are shown, a graph of the telephone prefixes of some countries in the world and a Login.</p>
             </Information>
           </div>
           <div>
             <Information>
               <Link href='https://www.linkedin.com/in/juan-om'><Avatar><LinkedInIcon /></Avatar>LinkedIn</Link>
-              <Link href='https://github.com/anvidmen'><Avatar><GitHubIcon /></Avatar>Code</Link>
+              <Link href='https://github.com/anvidmen/countries-chart'><Avatar><GitHubIcon /></Avatar>Code</Link>
             </Information>
           </div>
         </Information>

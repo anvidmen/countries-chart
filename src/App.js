@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { AppContext } from 'providers/AppProvider'
 
-import retrieveCountries from 'api/retrieve-countries'
-import retrieveUser from 'api/retrieve-user'
+import retrieveCountries from 'logic/retrieve-countries'
+import retrieveUser from 'logic/retrieve-user'
 
 import Countries from 'views/Countries/Countries'
 import CountriesChart from 'views/CountriesChart/CountriesChart'

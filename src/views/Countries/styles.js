@@ -13,3 +13,7 @@ export const Container = styled.div`
         margin: 1rem
     }
 `
+
+export const ErrorMessage = styled.h4`
+    color: red;
+`

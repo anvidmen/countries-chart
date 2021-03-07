@@ -31,5 +31,29 @@ describe('login user', () => {
     expect(mockFunc.mock.calls.length).toBe(1)
   })
 
+  it('should return error if data is wrong', async () => {
+    const mockFunc = mockAxios.post.mockRejectedValue(userLoginErrorResponse)
+
+    const wrongUsername = 'juan'
+    try {
+      await loginUser(wrongUsername, '123')
+    } catch (error) {
+      expect(error).toBeInstanceOf(Error)
+      expect(error.message).toEqual('Incorrect username/password')
+    }
+
+    expect(mockFunc).toHaveBeenCalledWith(EXPECTED_URL, 'username=juan&password=123', EXPECTED_CONFIG)
+
+    const wrongPassword = '3d1'
+    try {
+      await loginUser('pepe', wrongPassword)
+    } catch (error) {
+      expect(error).toBeInstanceOf(Error)
+      expect(error.message).toEqual('Incorrect username/password')
+    }
+
+    expect(mockFunc).toHaveBeenCalledWith(EXPECTED_URL, 'username=pepe&password=3d1', EXPECTED_CONFIG)
+  })
+
   afterEach(jest.clearAllMocks)
 })

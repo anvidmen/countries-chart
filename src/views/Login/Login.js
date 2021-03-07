@@ -40,7 +40,7 @@ const Login = ({ onLogin }) => {
       return Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Authentication failed!'
+        text: error.message
       })
     }
   }

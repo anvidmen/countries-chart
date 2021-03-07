@@ -59,8 +59,3 @@ export const userLoginErrorResponse = {
   status: 422,
   message: 'Incorrect username/password'
 }
-
-export const userLoginHeaderErrorResponse = {
-  status: 422,
-  message: 'Expecting field: username, password'
-}

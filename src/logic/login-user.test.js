@@ -3,12 +3,10 @@
 
 import loginUser from 'logic/login-user'
 import mockAxios from 'axios'
-import {
-  userLoginResponse, userLoginErrorResponse, userLoginHeaderErrorResponse
-} from 'logic/test-data/users'
+import { userLoginResponse, userLoginErrorResponse } from 'logic/test-data/users'
 
 const EXPECTED_URL = 'http://1dev.naveler.com:8007/api/login/'
-const EXPECTED_DATA = 'username=pepe&password=123'
+const EXPECTED_DATA = 'username=pepe_perez&password=123'
 const EXPECTED_CONFIG = {
   headers: {
     'content-type': 'application/x-www-form-urlencoded; charset=utf-8'
@@ -21,7 +19,7 @@ describe('login user', () => {
   it('should return successful response', async () => {
     const mockFunc = mockAxios.post.mockResolvedValue(userLoginResponse)
 
-    const data = await loginUser('pepe', '123')
+    const data = await loginUser('pepe_perez', '123')
     const { name, userCountry } = data
 
     expect(name).toEqual('Pepe')
@@ -46,13 +44,13 @@ describe('login user', () => {
 
     const wrongPassword = '3d1'
     try {
-      await loginUser('pepe', wrongPassword)
+      await loginUser('pepe_perez', wrongPassword)
     } catch (error) {
       expect(error).toBeInstanceOf(Error)
       expect(error.message).toEqual('Incorrect username/password')
     }
 
-    expect(mockFunc).toHaveBeenCalledWith(EXPECTED_URL, 'username=pepe&password=3d1', EXPECTED_CONFIG)
+    expect(mockFunc).toHaveBeenCalledWith(EXPECTED_URL, 'username=pepe_perez&password=3d1', EXPECTED_CONFIG)
   })
 
   afterEach(jest.clearAllMocks)

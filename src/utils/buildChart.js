@@ -74,7 +74,18 @@ const buildChart = countries => {
         }
       }],
       data: getData(countries)
-    }]
+    }],
+    lang: {
+      noData: 'Not countries found'
+    },
+    noData: {
+      style: {
+        fontWeight: 'normal',
+        justifyContent: 'center',
+        fontSize: '24px',
+        color: 'red'
+      }
+    }
   }
 }
 

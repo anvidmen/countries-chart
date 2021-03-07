@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
+
 import loginUser from 'logic/login-user'
 
 import Body from 'components/Body/Body'
@@ -8,6 +9,7 @@ import AsyncButton from 'components/units/AsyncButton/AsyncButton'
 
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import LockOpenIcon from '@material-ui/icons/LockOpen'
+import Swal from 'sweetalert2'
 import { Container, Form, StyleRedirect } from './styles'
 
 const Login = ({ onLogin }) => {
@@ -21,13 +23,26 @@ const Login = ({ onLogin }) => {
     username = username.value
     password = password.value
 
+    if (username.trim() === '' || password.trim() === '') {
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'All fields are required!'
+      })
+    }
+
     try {
       const user = await loginUser(username, password)
       onLogin(user)
+      history.push('/')
     } catch (error) {
-      console.log(error)
+      console.log(error.message)
+      return Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: error.message
+      })
     }
-    history.push('/')
   }
 
   return (
@@ -66,7 +81,7 @@ const Login = ({ onLogin }) => {
             textStyles={{ marginLeft: 10 }}
           />
           <StyleRedirect>
-            Don't have an account? <Link to='/register'>Sign up</Link>
+            Don't have an account? <Link to='/login'>Sign up</Link>
           </StyleRedirect>
         </Form>
       </Container>

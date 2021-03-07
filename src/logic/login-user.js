@@ -1,5 +1,4 @@
-
-import API from 'api/index'
+import { login } from 'api'
 import qs from 'qs'
 import { auth } from 'utils/storage'
 
@@ -12,7 +11,7 @@ const config = {
 const loginUser = async (username, password) => {
   const data = qs.stringify({ username: username, password: password })
   try {
-    const response = await API.post('login/', data, config)
+    const response = await login(data, config)
 
     const { data: { message } } = response
     const { user_data: user } = message

@@ -56,6 +56,10 @@ export const userLoginResponse = {
 }
 
 export const userLoginErrorResponse = {
-  status: 422,
-  message: 'Incorrect username/password'
+  response: {
+    data: {
+      status: 422,
+      message: 'Incorrect username/password'
+    }
+  }
 }

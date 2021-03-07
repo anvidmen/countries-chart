@@ -21,7 +21,7 @@ const loginUser = async (username, password) => {
 
     return { name, userCountry }
   } catch (error) {
-    const { message } = error
+    const { response: { data: { message } } } = error
     throw new Error(message)
   }
 }

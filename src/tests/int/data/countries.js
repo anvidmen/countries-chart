@@ -21,6 +21,10 @@ export const retrieveCountriesResponse = {
 }
 
 export const retrieveCountriesErrorResponse = {
-  status: 500,
-  message: 'Internal Error'
+  response: {
+    data: {
+      status: 500,
+      message: 'Internal Error'
+    }
+  }
 }

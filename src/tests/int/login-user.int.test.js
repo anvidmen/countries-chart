@@ -3,9 +3,9 @@
 
 import loginUser from 'logic/login-user'
 import mockAxios from 'axios'
-import { userLoginResponse, userLoginErrorResponse } from 'logic/test-data/users'
+import { userLoginResponse, userLoginErrorResponse } from 'tests/int/data/users'
 
-const EXPECTED_URL = 'http://1dev.naveler.com:8007/api/login/'
+const EXPECTED_URL = 'http://dev.naveler.com:8007/api/login/'
 const EXPECTED_DATA = 'username=pepe_perez&password=123'
 const EXPECTED_CONFIG = {
   headers: {

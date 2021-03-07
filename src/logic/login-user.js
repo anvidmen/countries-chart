@@ -1,5 +1,4 @@
-
-import { login } from 'api/index'
+import { login } from 'api'
 import qs from 'qs'
 import { auth } from 'utils/storage'
 

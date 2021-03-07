@@ -1,8 +1,8 @@
-import API from 'api/index'
+import { getCountries } from 'api'
 
 const retrieveCountries = async () => {
   try {
-    const { data } = await API.get('get_countries/')
+    const { data } = await getCountries()
     const { message: countries } = data
     return countries
   } catch (error) {

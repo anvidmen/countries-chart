@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Routes = styled.div`
     display: flex;
     padding: .5rem 1rem;
+    flex-direction: row;
 
     & > a {
         color: rgba(255,255,255,.5);
@@ -18,7 +19,6 @@ export const Routes = styled.div`
 
     @media only screen and (max-width: 468px) {
         display: flex;
-        flex-direction: column;
         padding: .5rem 1rem;
         padding-right: 0;
     }

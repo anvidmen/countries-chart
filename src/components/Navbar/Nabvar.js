@@ -37,10 +37,8 @@ const Navbar = () => {
       <BNavbar.Toggle aria-controls='responsive-navbar-nav' className='ml-4' />
       <BNavbar.Collapse id='responsive-navbar-nav'>
         <Nav className='mr-auto'>
-          <Routes>
-            <Link to='/'>Latin Countries</Link>
-            <Link to='/chart'>Chart</Link>
-          </Routes>
+          <Routes><Link to='/'>Latin Countries</Link></Routes>
+          <Routes><Link to='/chart'>Chart</Link></Routes>
         </Nav>
       </BNavbar.Collapse>
       <Nav className='ml-auto d-none d-md-flex'>
@@ -48,7 +46,7 @@ const Navbar = () => {
           ? (
             <Routes>
               <Avatar letter={user.name.charAt(0).toUpperCase()} />
-              <Link onClick={handleLogout}><FontAwesomeIcon icon={faSignOutAlt} className='mr-2' />Logout</Link>
+              <Link to='/' onClick={handleLogout}><FontAwesomeIcon icon={faSignOutAlt} className='mr-2' />Logout</Link>
             </Routes>
           )
           : <Routes><Link to='/login'><FontAwesomeIcon icon={faUser} className='mr-2' />Login</Link></Routes>}

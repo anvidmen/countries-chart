@@ -28,7 +28,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage --watchAll",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "src/components/*", 
+      "src/assets/*",
+      "src/views/*",
+      "src/tests/int/data/*",
+      "src/theme/*", 
+      "src/providers/*" 
+    ]
   },
   "eslintConfig": {
     "extends": [

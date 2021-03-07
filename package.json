@@ -39,7 +39,9 @@
       "src/views/*",
       "src/tests/int/data/*",
       "src/theme/*",
-      "src/providers/*"
+      "src/providers/*",
+      "src/App*",
+      "src/index*"
     ]
   },
   "eslintConfig": {

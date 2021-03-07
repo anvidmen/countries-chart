@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useHistory } from 'react-router-dom'
-import loginUser from 'api/login-user'
+import loginUser from 'logic/login-user'
 
 import Body from 'components/Body/Body'
 import Input from 'components/units/Input/Input'

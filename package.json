@@ -40,8 +40,7 @@
       "src/tests/int/data/*",
       "src/theme/*",
       "src/providers/*"
-    ],
-    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"]
+    ]
   },
   "eslintConfig": {
     "extends": [

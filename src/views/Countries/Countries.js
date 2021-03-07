@@ -10,8 +10,8 @@ const Countries = ({ latinCountries, user }) => {
   return (
     <Body title='Latin American countries'>
       <Container>
-        {latinCountries.map(country => (
-          <Flag key={country.country_code} country={country} isDisabled={isFlagDisabled(country)} />
+        {latinCountries.map((country, index) => (
+          <Flag key={index} country={country} isDisabled={isFlagDisabled(country)} />
         ))}
       </Container>
     </Body>

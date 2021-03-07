@@ -33,7 +33,7 @@ const App = () => {
 
   const handleLogin = user => setUser(user)
 
-  const latinCountries = countries.filter(country => country.is_latino)
+  const latinCountries = countries.filter(country => country.isLatino)
 
   return (
     <BrowserRouter>

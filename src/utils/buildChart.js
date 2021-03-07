@@ -1,10 +1,10 @@
 import { imageUrl } from 'assets/images/index'
 
 const getData = countries => {
-  return countries.map(({ name, phone_prefix: prefix }) => {
+  return countries.map(({ name, phonePrefix }) => {
     return {
       name: name,
-      y: parseInt(prefix.slice(1), 10),
+      y: parseInt(phonePrefix.slice(1), 10),
       color: `#${Math.floor(Math.random() * 16777215).toString(16)}`
     }
   })
@@ -33,7 +33,7 @@ const buildChart = countries => {
         formatter: function ({ value }) {
           if (value === countries.length) return
 
-          const { country_flag: flag } = countries.find(country => country.name === value)
+          const { flag } = countries.find(country => country.name === value)
           return '<span><img src="' + imageUrl + flag + '" style="width: 2rem; height: 2rem;"/></span>'
         }
       }

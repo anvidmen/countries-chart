@@ -3,7 +3,7 @@ import { imageUrl } from 'assets/images'
 import { Image, StyleFlag, TextContent } from './styles'
 
 const Flag = ({ country, isDisabled }) => {
-  const { name, country_flag: flag } = country
+  const { name, flag } = country
 
   return (
     <StyleFlag isDisabled={isDisabled}>

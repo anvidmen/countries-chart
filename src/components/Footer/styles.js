@@ -40,11 +40,15 @@ export const Information = styled.div`
         color: inherit;
         
         & > div {
-            color: ${Colors.bgHead};
+            color: ${Colors.darkBlue};
 
             &:hover {
                 color: black;
             }
+        }
+        &:hover {
+            text-decoration: none;
+            color: ${Colors.hoverNav}
         }
     };
 
@@ -65,7 +69,11 @@ export const Row = styled.div`
 
     & > a {
         margin: 0 0.4rem;
-        color: ${Colors.hoverNav}
+        color: ${Colors.hoverNav};
+        &:hover {
+            text-decoration: none;
+            color: white
+        }
     };
 
      @media only screen and (max-width: 468px) {

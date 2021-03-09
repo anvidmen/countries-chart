@@ -1,6 +1,6 @@
 import React from 'react'
 import { imageUrl } from 'assets/images'
-import { Image, StyleFlag, TextContent } from './styles'
+import { Image, StyleFlag } from './styles'
 
 const Flag = ({ country, isDisabled }) => {
   const { name, flag } = country
@@ -10,9 +10,9 @@ const Flag = ({ country, isDisabled }) => {
       <div>
         <Image src={`${imageUrl}/${flag}`} alt={name} />
       </div>
-      <TextContent>
-        <h1>{name}</h1>
-      </TextContent>
+      <div>
+        <label>{name}</label>
+      </div>
     </StyleFlag>
   )
 }

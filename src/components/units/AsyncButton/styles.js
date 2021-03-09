@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Colors from 'theme/Colors'
+import Device from 'theme/Responsive'
 
 const StyledButton = styled.button`
     box-shadow: 0px 2px 4px #00000029;
@@ -45,8 +46,8 @@ const StyledButton = styled.button`
             transform: rotate(360deg);
         }
     };
-    @media only screen and (max-width: 667px) {
-        width: 17rem;
+    @media ${Device.mobile} {
+        width: 16rem;
         height: 2.6rem;
     }
 

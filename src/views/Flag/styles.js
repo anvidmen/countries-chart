@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Colors from 'theme/Colors'
+import Device from 'theme/Responsive'
 
 export const StyleFlag = styled.div`
     display: flex;
@@ -13,8 +14,9 @@ export const StyleFlag = styled.div`
     width: 14rem;
     margin: 1rem;
     padding: 0.5rem;
+    font: normal normal normal 16px sans-serif;
 
-    @media only screen and (max-width: 667px) {
+    @media ${Device.mobile} {
         width: 7rem;
         height: 7rem;
         margin: 0.5rem;
@@ -24,14 +26,4 @@ export const StyleFlag = styled.div`
 export const Image = styled.img`
     width: 100%;
     height: 100%;
-`
-
-export const TextContent = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    & > h1 {
-        font: normal normal normal 1rem sans-serif;
-    };
-
 `

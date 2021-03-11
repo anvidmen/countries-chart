@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Colors from 'theme/Colors'
+import Device from 'theme/Responsive'
 
 export const Container = styled.div`
   display: flex;
@@ -14,10 +15,10 @@ export const Container = styled.div`
   height: 18rem;
   margin: 1rem;
   
-  @media only screen and (max-width: 667px) {
-        width: 19rem;
-        margin: 1rem;
-    }
+  @media ${Device.mobile} {
+    width: 19rem;
+    margin: 1rem;
+  }
 `
 
 export const Form = styled.form`

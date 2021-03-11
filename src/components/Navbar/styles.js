@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Device from 'theme/Responsive'
 
 export const Routes = styled.div`
     display: flex;
@@ -17,7 +18,7 @@ export const Routes = styled.div`
         }
     };
 
-    @media only screen and (max-width: 468px) {
+    @media ${Device.mobile} {
         display: flex;
         padding: .5rem 1rem;
         padding-right: 0;

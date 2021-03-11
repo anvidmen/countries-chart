@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Colors from 'theme/Colors'
+import Divice from 'theme/Responsive'
 
 export const StyledFooter = styled.footer`
     display: flex;
@@ -7,14 +8,7 @@ export const StyledFooter = styled.footer`
     width: 100%;
     bottom: 0;
     background-color: ${Colors.bgColor};
-    color: ${Colors.fontColor};
-    
-    @media only screen and (max-width: 468px) {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
+    color: ${Colors.fontColor}
 `
 
 export const Container = styled.div`
@@ -28,13 +22,16 @@ export const Information = styled.div`
     justify-content: space-between;
     width: 100%;
     margin: 1rem;
-    font: normal normal normal 14px sans-serif;
- 
+
     & h2 {
         padding: 1rem;
-        font: normal normal normal 22px/24px sans-serif;
+        font: normal normal normal 24px sans-serif;
     };
-    
+
+    & p {
+        font: normal normal normal 16px sans-serif;
+    };
+
     & > a {
         margin: 0.5rem;
         color: inherit;
@@ -52,10 +49,16 @@ export const Information = styled.div`
         }
     };
 
-     @media only screen and (max-width: 468px) {
+    @media ${Divice.mobile} {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        width: 90%;
+
+        & h2 {
+            padding: 0.5rem;
+            font: normal normal normal 20px sans-serif;
+        }
     }
 `
 
@@ -65,7 +68,7 @@ export const Row = styled.div`
     margin: 1rem;
     padding: 1rem;
     border-top: 1px solid white;
-    font: normal normal normal 15px/17px sans-serif;
+    font: normal normal normal 14px sans-serif;
 
     & > a {
         margin: 0 0.4rem;
@@ -76,9 +79,10 @@ export const Row = styled.div`
         }
     };
 
-     @media only screen and (max-width: 468px) {
+    @media ${Divice.mobile} {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        font: normal normal normal 14px sans-serif;
     }
 `

@@ -6,8 +6,7 @@ const loginUser = async (username, password) => {
   try {
     const response = await login(data)
 
-    const { data: { message } } = response
-    const { user_data: user } = message
+    const { data: { user } } = response
     const { name, country: { name: userCountry } } = user
 
     auth({ name, userCountry })

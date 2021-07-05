@@ -10,7 +10,7 @@
             "country": {
                 "country_code": "CO",
                 "name": "Colombia",
-                " phonePrefix": "+57",
+                "phonePrefix": "+57",
                 "flag": "https://restcountries.eu/data/col.svg",
                 "isLatino": true
             }
@@ -18,242 +18,242 @@
     },
     "countries": [
         {
-        "country_code": "AD",
-        "name": "Andorra",
-        " phonePrefix": "+376",
-        "flag": "https://restcountries.eu/data/and.svg",
-        "isLatino": false
+            "country_code": "AD",
+            "name": "Andorra",
+            "phonePrefix": "+376",
+            "flag": "https://restcountries.eu/data/and.svg",
+            "isLatino": false
         },
         {
-        "country_code": "AR",
-        "name": "Argentina",
-        " phonePrefix": "+54",
-        "flag": "https://restcountries.eu/data/arg.svg",
-        "isLatino": true
+            "country_code": "AR",
+            "name": "Argentina",
+            "phonePrefix": "+54",
+            "flag": "https://restcountries.eu/data/arg.svg",
+            "isLatino": true
         },
         {
-        "country_code": "BS",
-        "name": "Bahamas",
-        " phonePrefix": "+1",
-        "flag": "https://restcountries.eu/data/bhs.svg",
-        "isLatino": false
+            "country_code": "BS",
+            "name": "Bahamas",
+            "phonePrefix": "+1",
+            "flag": "https://restcountries.eu/data/bhs.svg",
+            "isLatino": false
         },
         {
-        "country_code": "BE",
-        "name": "Belgium",
-        " phonePrefix": "+32",
-        "flag": "https://restcountries.eu/data/bel.svg",
-        "isLatino": false
+            "country_code": "BE",
+            "name": "Belgium",
+            "phonePrefix": "+32",
+            "flag": "https://restcountries.eu/data/bel.svg",
+            "isLatino": false
         },
         {
-        "country_code": "BO",
-        "name": "Bolivia",
-        " phonePrefix": "+591",
-        "flag": "https://restcountries.eu/data/bol.svg",
-        "isLatino": true
+            "country_code": "BO",
+            "name": "Bolivia",
+            "phonePrefix": "+591",
+            "flag": "https://restcountries.eu/data/bol.svg",
+            "isLatino": true
         },
         {
-        "country_code": "BR",
-        "name": "Brasil",
-        " phonePrefix": "+55",
-        "flag": "https://restcountries.eu/data/bra.svg",
-        "isLatino": true
+            "country_code": "BR",
+            "name": "Brasil",
+            "phonePrefix": "+55",
+            "flag": "https://restcountries.eu/data/bra.svg",
+            "isLatino": true
         },
         {
-        "country_code": "CA",
-        "name": "Canada",
-        " phonePrefix": "+1",
-        "flag": "https://restcountries.eu/data/can.svg",
-        "isLatino": false
+            "country_code": "CA",
+            "name": "Canada",
+            "phonePrefix": "+1",
+            "flag": "https://restcountries.eu/data/can.svg",
+            "isLatino": false
         },
         {
-        "country_code": "CL",
-        "name": "Chile",
-        " phonePrefix": "+56",
-        "flag": "https://restcountries.eu/data/chl.svg",
-        "isLatino": true
+            "country_code": "CL",
+            "name": "Chile",
+            "phonePrefix": "+56",
+            "flag": "https://restcountries.eu/data/chl.svg",
+            "isLatino": true
         },
         {
-        "country_code": "CO",
-        "name": "Colombia",
-        " phonePrefix": "+57",
-        "flag": "https://restcountries.eu/data/col.svg",
-        "isLatino": true
+            "country_code": "CO",
+            "name": "Colombia",
+            "phonePrefix": "+57",
+            "flag": "https://restcountries.eu/data/col.svg",
+            "isLatino": true
         },
         {
-        "country_code": "CR",
-        "name": "Costa Rica",
-        " phonePrefix": "+506",
-        "flag": "https://restcountries.eu/data/cri.svg",
-        "isLatino": true
+            "country_code": "CR",
+            "name": "Costa Rica",
+            "phonePrefix": "+506",
+            "flag": "https://restcountries.eu/data/cri.svg",
+            "isLatino": true
         },
         {
-        "country_code": "CU",
-        "name": "Cuba",
-        " phonePrefix": "+53",
-        "flag": "https://restcountries.eu/data/cub.svg",
-        "isLatino": true
+            "country_code": "CU",
+            "name": "Cuba",
+            "phonePrefix": "+53",
+            "flag": "https://restcountries.eu/data/cub.svg",
+            "isLatino": true
         },
         {
-        "country_code": "DO",
-        "name": "República Dominicana",
-        " phonePrefix": "+1",
-        "flag": "https://restcountries.eu/data/dom.svg",
-        "isLatino": true
+            "country_code": "DO",
+            "name": "República Dominicana",
+            "phonePrefix": "+1",
+            "flag": "https://restcountries.eu/data/dom.svg",
+            "isLatino": true
         },
         {
-        "country_code": "EC",
-        "name": "Ecuador",
-        " phonePrefix": "+593",
-        "flag": "https://restcountries.eu/data/ecu.svg",
-        "isLatino": true
+            "country_code": "EC",
+            "name": "Ecuador",
+            "phonePrefix": "+593",
+            "flag": "https://restcountries.eu/data/ecu.svg",
+            "isLatino": true
         },
         {
-        "country_code": "SV",
-        "name": "El Salvador",
-        " phonePrefix": "+503",
-        "flag": "https://restcountries.eu/data/slv.svg",
-        "isLatino": true
+            "country_code": "SV",
+            "name": "El Salvador",
+            "phonePrefix": "+503",
+            "flag": "https://restcountries.eu/data/slv.svg",
+            "isLatino": true
         },
         {
-        "country_code": "FR",
-        "name": "Francia",
-        " phonePrefix": "+33",
-        "flag": "https://restcountries.eu/data/fra.svg",
-        "isLatino": false
+            "country_code": "FR",
+            "name": "Francia",
+            "phonePrefix": "+33",
+            "flag": "https://restcountries.eu/data/fra.svg",
+            "isLatino": false
         },
         {
-        "country_code": "DE",
-        "name": "Alemania",
-        " phonePrefix": "+49",
-        "flag": "https://restcountries.eu/data/deu.svg",
-        "isLatino": false
+            "country_code": "DE",
+            "name": "Alemania",
+            "phonePrefix": "+49",
+            "flag": "https://restcountries.eu/data/deu.svg",
+            "isLatino": false
         },
         {
-        "country_code": "GI",
-        "name": "Gibraltar",
-        " phonePrefix": "+350",
-        "flag": "https://restcountries.eu/data/gib.svg",
-        "isLatino": false
+            "country_code": "GI",
+            "name": "Gibraltar",
+            "phonePrefix": "+350",
+            "flag": "https://restcountries.eu/data/gib.svg",
+            "isLatino": false
         },
         {
-        "country_code": "GT",
-        "name": "Guatemala",
-        " phonePrefix": "+502",
-        "flag": "https://restcountries.eu/data/gtm.svg",
-        "isLatino": true
+            "country_code": "GT",
+            "name": "Guatemala",
+            "phonePrefix": "+502",
+            "flag": "https://restcountries.eu/data/gtm.svg",
+            "isLatino": true
         },
         {
-        "country_code": "HN",
-        "name": "Honduras",
-        " phonePrefix": "+504",
-        "flag": "https://restcountries.eu/data/hnd.svg",
-        "isLatino": true
+            "country_code": "HN",
+            "name": "Honduras",
+            "phonePrefix": "+504",
+            "flag": "https://restcountries.eu/data/hnd.svg",
+            "isLatino": true
         },
         {
-        "country_code": "IT",
-        "name": "Italia",
-        " phonePrefix": "+39",
-        "flag": "https://restcountries.eu/data/ita.svg",
-        "isLatino": false
+            "country_code": "IT",
+            "name": "Italia",
+            "phonePrefix": "+39",
+            "flag": "https://restcountries.eu/data/ita.svg",
+            "isLatino": false
         },
         {
-        "country_code": "MX",
-        "name": "Mexico",
-        " phonePrefix": "+52",
-        "flag": "https://restcountries.eu/data/mex.svg",
-        "isLatino": true
+            "country_code": "MX",
+            "name": "Mexico",
+            "phonePrefix": "+52",
+            "flag": "https://restcountries.eu/data/mex.svg",
+            "isLatino": true
         },
         {
-        "country_code": "NI",
-        "name": "Nicaragua",
-        " phonePrefix": "+505",
-        "flag": "https://restcountries.eu/data/nic.svg",
-        "isLatino": true
+            "country_code": "NI",
+            "name": "Nicaragua",
+            "phonePrefix": "+505",
+            "flag": "https://restcountries.eu/data/nic.svg",
+            "isLatino": true
         },
         {
-        "country_code": "PA",
-        "name": "Panamá",
-        " phonePrefix": "+507",
-        "flag": "https://restcountries.eu/data/pan.svg",
-        "isLatino": true
+            "country_code": "PA",
+            "name": "Panamá",
+            "phonePrefix": "+507",
+            "flag": "https://restcountries.eu/data/pan.svg",
+            "isLatino": true
         },
         {
-        "country_code": "PY",
-        "name": "Paraguay",
-        " phonePrefix": "+595",
-        "flag": "https://restcountries.eu/data/pry.svg",
-        "isLatino": true
+            "country_code": "PY",
+            "name": "Paraguay",
+            "phonePrefix": "+595",
+            "flag": "https://restcountries.eu/data/pry.svg",
+            "isLatino": true
         },
         {
-        "country_code": "PE",
-        "name": "Perú",
-        " phonePrefix": "+51",
-        "flag": "https://restcountries.eu/data/per.svg",
-        "isLatino": true
+            "country_code": "PE",
+            "name": "Perú",
+            "phonePrefix": "+51",
+            "flag": "https://restcountries.eu/data/per.svg",
+            "isLatino": true
         },
         {
-        "country_code": "PT",
-        "name": "Portugal",
-        " phonePrefix": "+351",
-        "flag": "https://restcountries.eu/data/prt.svg",
-        "isLatino": false
+            "country_code": "PT",
+            "name": "Portugal",
+            "phonePrefix": "+351",
+            "flag": "https://restcountries.eu/data/prt.svg",
+            "isLatino": false
         },
         {
-        "country_code": "PR",
-        "name": "Puerto Rico",
-        " phonePrefix": "+1",
-        "flag": "https://restcountries.eu/data/pri.svg",
-        "isLatino": true
+            "country_code": "PR",
+            "name": "Puerto Rico",
+            "phonePrefix": "+1",
+            "flag": "https://restcountries.eu/data/pri.svg",
+            "isLatino": true
         },
         {
-        "country_code": "QA",
-        "name": "Qatar",
-        " phonePrefix": "+974",
-        "flag": "https://restcountries.eu/data/qat.svg",
-        "isLatino": false
+            "country_code": "QA",
+            "name": "Qatar",
+            "phonePrefix": "+974",
+            "flag": "https://restcountries.eu/data/qat.svg",
+            "isLatino": false
         },
         {
-        "country_code": "ES",
-        "name": "España",
-        " phonePrefix": "+34",
-        "flag": "https://restcountries.eu/data/esp.svg",
-        "isLatino": false
+            "country_code": "ES",
+            "name": "España",
+            "phonePrefix": "+34",
+            "flag": "https://restcountries.eu/data/esp.svg",
+            "isLatino": false
         },
         {
-        "country_code": "CH",
-        "name": "Switzerland",
-        " phonePrefix": "+41",
-        "flag": "https://restcountries.eu/data/che.svg",
-        "isLatino": false
+            "country_code": "CH",
+            "name": "Switzerland",
+            "phonePrefix": "+41",
+            "flag": "https://restcountries.eu/data/che.svg",
+            "isLatino": false
         },
         {
-        "country_code": "GB",
-        "name": "Reino Unido",
-        " phonePrefix": "+44",
-        "flag": "https://restcountries.eu/data/gbr.svg",
-        "isLatino": false
+            "country_code": "GB",
+            "name": "Reino Unido",
+            "phonePrefix": "+44",
+            "flag": "https://restcountries.eu/data/gbr.svg",
+            "isLatino": false
         },
         {
-        "country_code": "US",
-        "name": "Estados Unidos de America",
-        " phonePrefix": "+1",
-        "flag": "https://restcountries.eu/data/usa.svg",
-        "isLatino": false
+            "country_code": "US",
+            "name": "Estados Unidos de America",
+            "phonePrefix": "+1",
+            "flag": "https://restcountries.eu/data/usa.svg",
+            "isLatino": false
         },
         {
-        "country_code": "UY",
-        "name": "Uruguay",
-        " phonePrefix": "+598",
-        "flag": "https://restcountries.eu/data/ury.svg",
-        "isLatino": true
+            "country_code": "UY",
+            "name": "Uruguay",
+            "phonePrefix": "+598",
+            "flag": "https://restcountries.eu/data/ury.svg",
+            "isLatino": true
         },
         {
-        "country_code": "VE",
-        "name": "Venezuela",
-        " phonePrefix": "+58",
-        "flag": "https://restcountries.eu/data/ven.svg",
-        "isLatino": true
+            "country_code": "VE",
+            "name": "Venezuela",
+            "phonePrefix": "+58",
+            "flag": "https://restcountries.eu/data/ven.svg",
+            "isLatino": true
         }
     ]
 }

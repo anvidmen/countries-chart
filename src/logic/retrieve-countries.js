@@ -3,8 +3,7 @@ import { getCountries } from 'api'
 const retrieveCountries = async () => {
   try {
     const { data } = await getCountries()
-    const { message: countries } = data
-    return countries.map(({ name, phone_prefix: phonePrefix, country_flag: flag, is_latino: isLatino }) => {
+    return data.map(({ name, phonePrefix, flag, isLatino }) => {
       return {
         name, phonePrefix, flag, isLatino
       }

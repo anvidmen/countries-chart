@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = 'http://dev.naveler.com:8007/api/'
+const baseURL = 'http://localhost:5000/'
 
-export const login = (data, config) => axios.post(`${baseURL}login/`, data, config)
-export const getCountries = () => axios.get(`${baseURL}get_countries/`)
+export const login = data => axios.get(`${baseURL}login`, data)
+export const getCountries = () => axios.get(`${baseURL}countries`)

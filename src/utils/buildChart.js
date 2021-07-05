@@ -1,5 +1,3 @@
-import { imageUrl } from 'assets/images/index'
-
 const getData = countries => {
   return countries.map(({ name, phonePrefix }) => {
     return {
@@ -34,7 +32,7 @@ const buildChart = countries => {
           if (value === countries.length) return
 
           const { flag } = countries.find(country => country.name === value)
-          return '<span><img src="' + imageUrl + flag + '" style="width: 2rem; height: 2rem;"/></span>'
+          return '<span><img src="' + flag + '" style="width: 2rem; height: 2rem;"/></span>'
         }
       }
     },

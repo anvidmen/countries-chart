@@ -15,7 +15,7 @@
     "bootstrap": "^4.6.0",
     "highcharts": "^9.0.1",
     "highcharts-react-official": "^3.0.0",
-    "qs": "^6.9.6",
+    "json-server": "^0.16.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.1",
     "react-dom": "^17.0.1",
@@ -30,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "npm test -- --coverage --watchAll",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch src/api/db.json --port 5000"
   },
   "jest": {
     "watchPathIgnorePatterns": [

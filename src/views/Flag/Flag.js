@@ -1,5 +1,4 @@
 import React from 'react'
-import { imageUrl } from 'assets/images'
 import { Image, StyleFlag } from './styles'
 
 const Flag = ({ country, isDisabled }) => {
@@ -8,7 +7,7 @@ const Flag = ({ country, isDisabled }) => {
   return (
     <StyleFlag isDisabled={isDisabled}>
       <div>
-        <Image src={`${imageUrl}/${flag}`} alt={name} />
+        <Image src={`${flag}`} alt={name} />
       </div>
       <div>
         <label>{name}</label>

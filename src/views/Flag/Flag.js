@@ -9,7 +9,7 @@ const Flag = ({ country, isDisabled }) => {
       <div>
         <Image src={`${flag}`} alt={name} />
       </div>
-      <div>
+      <div className="mt-3">
         <label>{name}</label>
       </div>
     </StyleFlag>
